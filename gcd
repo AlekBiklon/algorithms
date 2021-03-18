@@ -1,1 +1,7 @@
-
+m=int(input())
+n=int(input())
+while n!=0:
+    r=m%n
+    m=n
+    n=r
+print("gcd =",m)
